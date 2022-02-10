@@ -7,7 +7,7 @@ public class DemoName {
 	public static void main(String[] args) {
 		// input
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your full name: ");
+		System.out.println("Enter your full name with middle name: ");
 		String name = scanner.nextLine();
 		
 		// process
