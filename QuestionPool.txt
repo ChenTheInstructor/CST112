@@ -1,0 +1,616 @@
+6
+This type of method cannot access any nonstatic member variables in its own class.
+instance
+void
+static
+nonstatic
+
+6
+Two or more methods in a class may have the same name, as long as this is different.
+their return values
+their access specifier
+their signatures
+their memory address
+
+6
+The process of matching a method call with the correct method is known as
+matching
+binding
+linking
+connecting
+
+6
+When an object is passed as an argument to a method, this is actually passed.
+a copy of the object
+the name of the object
+a reference to the object
+None of these. You cannot pass an object.
+
+6
+If you write this method for a class, Java will automatically call it any time you concatenate an object of the class with a string.
+toString
+plusString
+stringConvert
+concatString
+
+6
+Making an instance of one class a field in another class is called
+nesting
+class fielding
+aggregation
+concatenation
+
+6
+This is the name of a reference variable that is always available to an instance method and refers to the object that is calling the method.
+callingObject
+this
+me
+instance
+
+6
+This enum method returns the position of an enum constant in the declaration.
+position
+location
+ordinal
+toString
+
+6
+Assuming the following declaration exists: enum seasons ( SPRING, WINTER, SUMMER, FALL). What is the fully qualified name of the FALL constant?
+FALL
+enum. FALL
+FALL. Seasons
+Seasons. FALL
+
+6
+You cannot use the fully qualified name of an enum constant for this.
+a switch expression
+a case expression
+an argument to a method
+all of these
+
+6
+A class that is defined inside of another class is called a(n)
+inner class
+folded class
+hidden class
+unknown class
+
+6
+The VM periodically performs this process, which automatically removes unreferenced objects from memory.
+memory cleansing
+memory deallocation
+garbage collection
+object expungement
+
+6
+If a class has this method, it is called automatically just before an instance of the class is destroyed by the JVM
+finalize
+destroy
+remove
+housekeeper
+
+6
+CRC stands for
+Class, Return value, Composition
+Class, Responsibilities, Collaborations
+Class, Responsibilities, Composition
+Compare, Return, Continue
+
+5
+What will the printin statement in the following program segment display? int X = 5; System.out.println(x++);
+5
+6
+O
+None of these
+
+5
+What will the printin statement in the following program segment display? int X = 5; System.out.println(++x);
+5
+6
+O
+None of these
+
+5
+In the expression number++, the ++ operator is in what mode?
+prefix
+pretest
+postfix
+posttest
+
+5
+What is each repetition of a loop known as?
+cycle
+revolution
+orbit
+iteration
+
+5
+This is a variable that controls the number of iterations performed by a loop.
+loop control variable
+accumulator
+iteration register variable
+repetition meter
+
+5
+The while loop is this type of loop.
+pretest
+posttest
+prefix
+posttix
+
+5
+The do-while loop is this type of loop.
+pretest
+posttest
+prefix
+postfix
+
+5
+The for loop is this type of loop.
+pretest
+posttest
+prefix
+postfix
+
+5
+This type of loop has no way of ending and repeats until the program is interrupted.
+indeterminate
+interminable
+infinite
+timeless
+
+5
+This type of loop always executes at least one time.
+while
+do-while
+for
+Any of these
+
+5
+This expression is executed by the for loop only once, regardless of the number of iterations.
+initialization expression
+test expression
+update expression
+preincrement expression
+
+5
+This is a variable that keeps a running total.
+sentinel
+sum
+total
+accumulator
+
+5
+This a special value that signals when there are no more items from a list of items to be processed. This value cannot be mistaken as an item from the list.
+sentinel
+flag
+signal
+accumulator
+
+5
+To open a file for writing, you use the following class.
+PrintWriter
+FileOpen
+OutputFile
+FileReader
+
+5
+To open a file for reading, you use the following classes.
+File and Writer
+File and Output
+File and Input
+File and Scanner
+
+5
+When a program is finished using a file, it should do this.
+Erase the file
+Close the file
+Throw an exception
+Reset the read position
+
+5
+This class allows you to use the print and printin methods to write data
+File
+FileReader
+OutputFile
+Printwriter
+
+5
+This class allows you to read a line from a file.
+FileWriter
+Scanner
+InputFile
+FileReader
+
+2
+Every complete statement ends with a_____. 
+Period 
+Parenthesis 
+semicolon 
+ending brace 
+
+2
+The following data 72, ‘A', "Hello World", and 2.8712 are all examples of_____. 
+variables 
+Literals 
+strings 
+none of these 
+
+2
+A group of statements, such as the contents of a class or a method, are enclosed in______. 
+braces {} 
+parentheses () 
+brackets [] 
+any of these will do 
+
+2
+Which of the following are not valid assignment statements? (Indicate all that apply.) 
+total= 9; 
+72 = amount; 
+profit = 129 
+letter ='W': 
+
+2
+Which of the following are not valid printIn statements? (Indicate all that apply.) 
+System.out.println + "Hello World"; 
+System.out.println ( "Have a nice day") ; 
+out. System.println(value); 
+println.out (Programming is great fun); 
+ 
+2
+The negation operator is ______. 
+unary 
+binary 
+ternary 
+none of these 
+ 
+2
+This key word is used to declare a named constant. 
+constant 
+namedConstant 
+final 
+concrete 
+ 
+2
+These characters mark the beginning of a multiline comment. 
+// 
+/* 
+*/ 
+/** 
+ 
+2
+These characters mark the beginning of a single-line comment. 
+ // 
+ /* 
+ */ 
+/** 
+ 
+2
+These characters mark the beginning of a documentation comment. 
+ // 
+ /* 
+ */ 
+ /** 
+ 
+2
+Which scanner class method would you use to read a string as input? 
+nextString 
+nextLine 
+readString 
+getLine 
+ 
+2
+Which scanner class method would you use to read a double as input? 
+NextDouble 
+getDouble 
+readDouble 
+None of these; you cannot read a double with the Scanner class 
+ 
+2
+You can use this class to display dialog boxes. 
+JOptionPane 
+BufferedReader 
+InputStreamReader 
+DialogBox 
+ 
+2
+When Java converts a lower-ranked value to a higher-ranked type, it is called a _____. 
+4-bit conversion 
+escalating conversion 
+widening conversion 
+narrowing conversion 
+ 
+2
+This type of operator lets you manually convert a value, even if it means that a narrowing conversion will take place. 
+cast 
+binary 
+uploading 
+dot 
+
+4
+The if statement is an example of a
+sequence structure.
+decision structure.
+pathway structure.
+class structure.
+
+4
+This type of expression has a value of either true or false.
+binary expression
+decision expression
+unconditional expression
+boolean expression
+
+4
+>, <, and == are
+relational operators.
+logical operators.
+conditional operators.
+ternary operators.
+
+4
+&&, | |, and ! are
+relational operators.
+logical operators.
+conditional operators.
+ternary operators.
+
+4
+This is an empty statement that does nothing.
+missing statement
+virtual statement
+null statement
+conditional statement
+
+4
+To create a block of statements, you enclose the statements in these.
+parentheses ()
+square brackets [1
+angled brackets <>
+braces {}
+
+4
+This is a boolean variable that signals when some condition exists in the program.
+flag
+signal
+sentinel
+siren
+
+4
+How does the character "A" compare to the character "B'?
+"A" is greater than "B"
+"A" is less than "B'
+"A" is equal to "B"
+You cannot compare characters.
+
+4
+This is an if statement that appears inside another if statement.
+nested if statement
+tiered if statement
+dislodged if statement
+structured if statement
+
+4
+An else always clause goes with
+the closest previous if clause that doesn't already have its own else clause.
+the closest if clause.
+the if clause that is randomly selected by the compiler.
+none of these
+
+4
+When determining whether a number is inside a range, it's best to use this operator.
+&&
+!
+Il
+?:
+
+4
+This determines whether two different string objects contain the same string.
+the == operator
+the = operator
+the equals method
+the stringCompare method
+
+4
+The conditional operator takes this many operands.
+one
+two
+three
+four
+
+4
+This section of a switch statement is branched to if none of the case values match the testExpression.
+else
+default
+case
+otherwise
+
+1
+This part of the computer fetches instructions, carries out the operations commands by the instructions, and produces some outcome or resultant information, 
+memory 
+CPU 
+secondary storage
+input device 
+      
+1
+A byte is made up of eight 
+CPUs 
+addresses 
+variables 
+bits 
+      
+1
+Each byte is assigned a unique 
+address 
+CPU 
+bit 
+variable 
+      
+1
+This type of memory can hold data for long periods of time-even when there is no power to the computer. 
+RAM 
+primary storage 
+secondary storage 
+CPU storage 
+      
+1
+If you were to look at a machine language program, you would see 
+Java source code 
+a stream of binary numbers 
+English words 
+Circuits
+       
+1
+This type of program is designed to be transmitted over the Internet and run in Web browser. 
+application 
+applet 
+machine language 
+source code 
+
+1
+These are words that have a special meaning in the programming language.   
+punctuation 
+programmer-defined names 
+key words 
+operators 
+
+1
+These are symbols or words that perform operations on one or more operands. 
+punctuation 
+programmer-defined names 
+key words 
+operators
+
+1
+These characters serve specific purposes, such as marking the beginning or ending of a statement, or separating items in a list. 
+punctuation 
+programmer-defined names 
+key words 
+operators 
+
+1
+These are words or names that are used to identify storage locations in memory and parts of the program that are created by the programmer. 
+punctuation 
+programmer-defined names 
+key words 
+operators 
+
+1
+These are the rules that must be followed when writing a program. 
+syntax 
+punctuation 
+key words 
+operators 
+
+1
+This is a named storage location in the computer's memory. 
+class 
+key word 
+variable 
+operator 
+
+1
+The Java compiler generates 
+machine code 
+byte code 
+source code 
+HTML 
+
+1
+JVM stands for 
+Java Variable Machine 
+Java Variable Method 
+Java Virtual Method 
+Java Virtual Machine
+
+3
+This is a collection of programming statements that specify the attributes and methods that a particular type of object can have.
+Class
+method
+parameter
+instance
+
+3
+A class is analogous to a
+cookie
+cookie cutter
+Bakery
+soft drink
+
+3
+An object is a(n)
+blueprint
+cookie cutter
+variable
+instance
+
+3
+This is a member of a class that holds data.
+method
+instance
+field
+constructor
+
+3
+This key word causes an object to be created in memory.
+create
+new
+object
+construct
+
+3
+This keyword causes a value to be sent back from a method to the statement that called it.
+Send
+return
+value
+public
+
+3
+This is a method that gets a value from a class's field, but does not change it.
+accessor
+constructor
+void
+mutator
+
+3
+This is a method that stores a value in a field or in some other way changes the value of a field.
+accessor
+constructor
+void
+mutator
+
+3
+When the value of an item is dependent on other data, and that item is not updated when the other data is changed, what has the value become?
+bitter
+stale
+asynchronous
+moldy
+
+3
+This is a method that is automatically called when an instance of a class is created.
+accessor
+constructor
+void
+mutator
+
+3
+When a local variable has the same name as a field, the local variable's name does this to the field's name.
+shadows
+complements
+deletes
+merges with
+
+3
+If you do not write a constructor for a class, this is automatically provided for the class.
+accessor method
+default instance
+default constructor
+predefined constructor
+
+3
+A class's responsibilities are the objects 
+created from the class
+things the class knows
+actions the class performs
+Both b and c
+
